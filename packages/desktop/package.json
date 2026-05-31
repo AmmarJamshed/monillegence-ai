@@ -1,0 +1,25 @@
+{
+  "name": "@monillegence/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Monillegence AI Desktop — Electron shell",
+  "main": "dist/main/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.main.json && tsc -p tsconfig.preload.json",
+    "dev": "concurrently \"pnpm --filter @monillegence/agent-backend dev\" \"pnpm --filter @monillegence/ui dev\" \"wait-on http://127.0.0.1:9477/api/health http://127.0.0.1:5173 && electron .\"",
+    "start": "electron .",
+    "typecheck": "tsc -p tsconfig.main.json --noEmit",
+    "lint": "echo ok"
+  },
+  "dependencies": {
+    "@monillegence/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "concurrently": "^9.1.0",
+    "electron": "^33.2.1",
+    "typescript": "^5.7.2",
+    "wait-on": "^8.0.1"
+  }
+}

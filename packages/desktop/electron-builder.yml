@@ -1,0 +1,20 @@
+{
+  "appId": "com.monillegence.ai",
+  "productName": "Monillegence AI",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "../ui/dist/**/*",
+    "../agent-backend/dist/**/*"
+  ],
+  "win": {
+    "target": ["nsis"],
+    "icon": "resources/icon.ico"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  }
+}
