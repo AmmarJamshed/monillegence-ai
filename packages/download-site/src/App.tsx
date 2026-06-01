@@ -39,12 +39,18 @@ export default function App() {
 
       <section className="bg-hero px-4 pb-16 pt-14">
         <div className="mx-auto max-w-3xl text-center">
+          <p className="mb-4 inline-block rounded-full border border-monil-primary/30 bg-monil-primary/10 px-4 py-1 text-sm text-monil-glow">
+            100% free · No API keys · Runs on your hardware
+          </p>
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
             Build apps with AI on your PC
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-lg text-monil-muted">
-            No coding setup. No cloud account. One installer does everything — then open from your
-            Desktop.
+            Free to use. No API keys. No cloud account. Runs on your laptop or desktop — the bigger
+            your machine, the more you can do.
+          </p>
+          <p className="mx-auto mt-2 max-w-lg text-sm text-monil-muted/90">
+            One installer does everything — then open from your Desktop.
           </p>
 
           <button
@@ -90,7 +96,8 @@ export default function App() {
             </span>
           </p>
           <p className="mt-2 text-sm text-monil-muted">
-            Monillegence writes real files on your computer and runs the app for you.
+            Monillegence writes real files on your computer and runs the app for you — 100% local,
+            no API keys, free forever.
           </p>
         </div>
       </section>
@@ -115,8 +122,8 @@ export default function App() {
           <li className="flex gap-3">
             <span className="text-monil-glow">✓</span>
             <span>
-              <strong className="text-white">8 GB+ RAM</strong> — 16 GB recommended for bigger
-              models.
+              <strong className="text-white">Your PC decides the power</strong> — 8 GB RAM works for
+              everyday builds; 16 GB+ lets you run larger, smarter models. No paid tiers required.
             </span>
           </li>
         </ul>
