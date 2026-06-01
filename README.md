@@ -13,6 +13,20 @@ Monillegence AI is a local-first coding assistant (Cursor-style) that **actually
 
 ## Download
 
+### Download website (one-click)
+
+Open the **download center** for software ZIP, setup scripts, and AI model downloads:
+
+```bash
+pnpm install
+pnpm dev:website
+```
+
+Then visit **http://localhost:5180** — use **Download software**, **Download everything**, or per-model buttons.
+
+Hosted copy (after GitHub Pages is enabled):  
+**https://ammarjamshed.github.io/monillegence-ai/**
+
 ### Option 1 — Clone from GitHub (recommended)
 
 ```bash
@@ -149,6 +163,7 @@ monillegence-ai/
 ├── packages/
 │   ├── agent-backend/    # API + build agent
 │   ├── ui/               # React frontend
+│   ├── download-site/    # Public download landing page
 │   ├── desktop/          # Electron shell
 │   ├── runtime-manager/  # Ollama/LM Studio
 │   ├── model-router/     # AI routing
