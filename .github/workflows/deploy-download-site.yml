@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths:
       - 'packages/download-site/**'
+      - 'scripts/install-and-run-windows.bat'
+      - 'scripts/install-and-run-mac.sh'
+      - 'scripts/start-monillegence.bat'
       - '.github/workflows/deploy-download-site.yml'
   workflow_dispatch:
 

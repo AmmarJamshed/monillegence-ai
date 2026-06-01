@@ -1,6 +1,19 @@
 # Installing Monillegence AI
 
-Step-by-step guide for anyone — no prior dev experience required beyond basic terminal use.
+## Easiest way (recommended)
+
+1. Go to **https://ammarjamshed.github.io/monillegence-ai/**
+2. Click **Install Monillegence AI**
+3. Double-click the downloaded installer and wait
+4. Double-click **Monillegence AI** on your Desktop — the app opens in your browser
+
+That’s it. The installer handles Node checks, app download, setup, AI model, and a Desktop shortcut.
+
+---
+
+## Manual install (developers)
+
+Step-by-step guide if you prefer the terminal.
 
 ## Step 1: Install prerequisites
 
